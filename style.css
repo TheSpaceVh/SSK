@@ -1,0 +1,68 @@
+body{
+  font-family:monospace
+}
+
+#header{
+  margin-bottom: 60px;
+  
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  /* border: 1px solid #aaaa */
+}
+
+.max-width {
+  display: inline-block;
+  width: 7rem;
+  padding: 0px 0px;
+  text-align: center;
+  
+}
+
+#players-divs-container {
+  min-height: 8rem;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.btns-div {
+  display: flex;
+  
+}
+
+.player-div {
+  display: inline-block;
+  text-align: center;
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid #aaaa;
+  margin: 0 4px;
+  padding: 5px 2px;
+  
+}
+
+.btn {
+  padding:5px 10px;
+  
+}
+
+.win {
+  color: greenyellow;
+  transition: all 0.3s;
+}
+
+
+.lose {
+  color: red;
+  transition: all 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+

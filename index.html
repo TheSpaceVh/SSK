@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Score Board</title>
+</head>
+<body>
+  <div class="container">
+
+    <span>Players number:</span> <select name="players-number" id="players-number">
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+
+    <span>Playing To </span> <select name="win-number" id="win-number">
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       <option value="11">11</option>
+       <option value="12">12</option>
+     </select>
+
+     <button id="start">New Game</button>
+
+    <h1 id="header">Score Keeper</h2>
+    <div id="players-divs-container">
+    </div>
+  
+    <div id="container-btn">
+
+    </div>
+    <br><br>
+    <button id="end">End Game</button>  
+    <button id="reset">Reset Score!</button>  
+  </div>
+  <script src="./dynamic.js"></script>
+</body>
+</html>
