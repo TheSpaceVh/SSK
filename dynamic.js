@@ -68,7 +68,6 @@ class Match {
 
 
   makePlayerDiv = (i) =>  {
-    const player = {};
     // Making the player's div
     const div = document.createElement('div');
     div.classList.add('player-div');
@@ -102,13 +101,7 @@ class Match {
     btnsDiv.append(minusBtn);  
 
     //Adding everything to thePlayers array
-    player.div = div;
-    player.plusBtn = plusBtn;
-    player.score = score;
-    player.index = i;
-    player.minusBtn = minusBtn;
-    player.name = name;
-
+    const player = {div, plusBtn, score, index, minusBtn, name};
     console.log(player); 
 
     this.thePlayers.push(player);
